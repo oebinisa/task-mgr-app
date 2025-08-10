@@ -4,7 +4,7 @@ const TaskContainer = styled.div`
   color: black;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; 
   padding: 10px;
   background-color: ${(props) => (props.completed ? "#d4edda" : "lightgray")};
   border-radius: 5px;
